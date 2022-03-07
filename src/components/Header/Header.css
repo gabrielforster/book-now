@@ -1,0 +1,63 @@
+header{
+    background-color: #222;
+    padding: 1.5rem;
+    border-bottom: 1px solid #fff;
+    font-size: 1.05rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-img{
+    padding-top: 0.4rem;
+    height: 2.5rem;
+}
+
+.logo a{
+    color: #ddd;
+    text-decoration: none;
+    padding-left: .1rem;
+    font-size: 1.1rem;
+}
+
+.menu{
+    padding-top: 0.55rem;
+}
+
+.btn-menu{
+    padding: 0.5rem;
+    color: #ddd;
+    text-decoration: none;
+}
+
+.search{
+    background-color: #ccc;
+    height: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    outline: 0;
+    border: 0;
+    padding-left: 1rem;
+    background-color: #ccc;
+    height: 2rem;
+    width: 15rem;
+}
+
+.search button{
+    padding-right: 1rem;
+    background-color: #ccc;
+    outline: 0;
+    border: 0;
+}
+
+.search-img-button{
+    height: 1rem;
+    padding-top: 0.25rem;
+}

@@ -1,0 +1,19 @@
+footer{
+    border-top: 1px solid #fff;
+    background-color: #222;
+}
+
+.copyright{
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+i{
+    font-size: 1.25rem;
+}
+
+p{
+    color: #ddd;
+}
+

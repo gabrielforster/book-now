@@ -1,0 +1,16 @@
+main{
+    margin: 1.5rem;
+    height: 100vh;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.container{
+    max-width: 1100px;
+    text-align: center;
+    align-items: center;
+}
+
+.content{
+    color: #eee;
+}
