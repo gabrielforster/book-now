@@ -1,6 +1,5 @@
 import React from 'react'
 import logo from '../img/favicon.ico';
-import search from '../img/search-icon.png'
 import './Header.css'
 
 export default function Header() {
@@ -9,12 +8,9 @@ export default function Header() {
     <header>
         <div className='logo'>
             <img className='logo-img' src={logo} alt=''></img>
-            <a href='logo'>BookNow</a>
+            <a className='btn-logo' href='logo'>Book Now</a>
         </div>
-        <div className='search'>
-          <input type='text' placeholder='Procure aqui!' id='search-content'></input>
-          <button><img className='search-img-button' src={search} alt=''></img></button>
-        </div>
+        
         <div className='menu'>
           <a className='btn-menu' href='sobre'>Sobre</a>
         </div>

@@ -5,6 +5,11 @@
   box-sizing: border-box;
   font-family: Roboto Mono;
 }
+
 body{
   background-color: #2b2a33;
+}
+
+a{
+  text-decoration: none;
 }

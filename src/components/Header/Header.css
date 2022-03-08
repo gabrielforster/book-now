@@ -1,3 +1,8 @@
+:root{
+    --background-color: #2b2a33;
+    --text-color: #ccc;
+}
+
 header{
     background-color: #222;
     padding: 1.5rem;
@@ -18,11 +23,8 @@ header{
     height: 2.5rem;
 }
 
-.logo a{
-    color: #ddd;
-    text-decoration: none;
-    padding-left: .1rem;
-    font-size: 1.1rem;
+.btn-logo{
+    display: none;
 }
 
 .menu{
@@ -31,12 +33,13 @@ header{
 
 .btn-menu{
     padding: 0.5rem;
-    color: #ddd;
+    color: var(--text-color);
     text-decoration: none;
 }
 
 .search{
-    background-color: #ccc;
+    margin-top: 0.3rem;
+    background-color: var(--text-color);;
     height: 2rem;
     align-items: center;
     justify-content: center;
@@ -45,14 +48,14 @@ header{
     outline: 0;
     border: 0;
     padding-left: 1rem;
-    background-color: #ccc;
+    background-color: var(--text-color);;
     height: 2rem;
-    width: 15rem;
+    width: 10rem;
 }
 
 .search button{
     padding-right: 1rem;
-    background-color: #ccc;
+    background-color: var(--text-color);;
     outline: 0;
     border: 0;
 }
@@ -60,4 +63,19 @@ header{
 .search-img-button{
     height: 1rem;
     padding-top: 0.25rem;
+}
+
+
+@media only screen and (min-width: 700px){
+    .btn-logo{
+        display: flex;
+        color: #ddd;
+        text-decoration: none;
+        padding-left: .1rem;
+        font-size: 1.1rem;
+    }
+    
+    .search input{
+        width: 25rem;
+    }
 }

@@ -1,6 +1,16 @@
+:root{
+    --background-color: #2b2a33;
+    --text-color: #ccc;
+}
+
+
 footer{
     border-top: 1px solid #fff;
     background-color: #222;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 2rem;
 }
 
 .copyright{
@@ -17,3 +27,7 @@ p{
     color: #ddd;
 }
 
+a{
+   color: var(--text-color);
+   text-decoration: underline;
+}
